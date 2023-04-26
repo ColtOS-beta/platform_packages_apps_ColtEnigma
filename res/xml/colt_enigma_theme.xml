@@ -44,7 +44,13 @@
         android:title="@string/theme_customization_signal_icon_title"
         android:summary="@string/theme_customization_signal_icon_summary"
         android:fragment="com.colt.enigma.fragments.SignalIcons"/>
-
+            
+        <Preference
+            android:key="ui_theme_engine"
+            android:title="@string/ui_theme_engine_title"
+            android:summary="@string/ui_theme_engine_summary"
+            android:fragment="com.colt.enigma.fragments.ThemeEngine" />
+            
     <!-- Wifi icon style -->
     <Preference
         android:key="android.theme.customization.wifi_icon"
