@@ -651,4 +651,8 @@
     <string name="volumebar_style_3"> Style 3</string>
     <string name="volumebar_style_4"> Style 4</string>
     <string name="volumebar_style_5"> Style 5</string>
+
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
+    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, NFC, Hotspot, USB tethering and Location</string>
 </resources>

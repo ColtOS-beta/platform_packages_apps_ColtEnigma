@@ -118,6 +118,12 @@
             android:summary="@string/qs_auto_brightness_summary"
             android:defaultValue="true" />
 
+     <com.colt.enigma.preference.SecureSettingSwitchPreference
+            android:key="qstile_requires_unlocking"
+            android:title="@string/qstile_requires_unlocking_title"
+            android:summary="@string/qstile_requires_unlocking_summary"
+            android:defaultValue="true"/>
+
      <PreferenceCategory
        android:title="@string/qs_battery_category_title" >
 
